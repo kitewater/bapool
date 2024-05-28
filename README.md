@@ -1,52 +1,52 @@
-# 룰렛 어벤져스 1차 프로젝트
-WEB IDE 서비스.
+# 밥풀
+소셜 다이닝 앱서비스
 
 ## 정보
-- **백엔드**: Spring Security, Spring Boot, OAuth 2.0, Kakao API
-- **프론트엔드**: React
-- **배포 환경**: Kubernetes (Krampolin 사용)
-
+- **백엔드**: Spring Security, Spring Boot, OAuth 2.0, Kakao API, NAVER API
+- **프론트엔드**: Kotlin, Firebase DB
+  
 ## 사용 예제
 
 <table>
   <tr>
     <td style="width: 70%;">
       <p align="center">
-        <img src="https://github.com/kitewater/back/assets/97283971/71b74cd2-11e1-45f9-8baf-8dafc0bd5a8e" width="100%">
+        <img src="https://github.com/kitewater/WEBIDE/assets/97283971/a690c3b3-cc88-46c3-906c-a9e65a176d07" width="100%">
       </p>
     </td>
     <td style="width: 30%;">
-      카카오 로그인 API와 OAuth 2.0을 사용하여 소셜 로그인 서비스 구현
+      카카오 로그인, 네이버 로그인을 OAuth 2.0을 사용하여 소셜 로그인 서비스 구현
     </td>
   </tr>
   <tr>
     <td style="width: 70%;">
       <p align="center">
-        <img src="https://github.com/kitewater/back/assets/97283971/1883f55d-a4f2-4488-877f-e70ec580da27" width="100%">
+        <img src="https://github.com/kitewater/WEBIDE/assets/97283971/68e26f4a-c174-430b-bd4b-6b22401ade03" width="100%">
       </p>
     </td>
     <td style="width: 30%;">
-      게시판 CRUD 서비스 구현
+      네이버 지도 API와 카카오 지도 API를 결합해서 카카오 지도 API 위에 네이버 API를 이용해서 식당 검색을 한 후에 화면에 커스텀 마커를 그려서 식당 출력
     </td>
   </tr>
   <tr>
     <td style="width: 70%;">
       <p align="center">
-        <img src="https://github.com/kitewater/back/assets/97283971/2d9e8efc-871f-4b50-8d73-314ad050d5fd" width="100%">
+        <img src="https://github.com/kitewater/WEBIDE/assets/97283971/ffaaff34-52d2-4340-aa85-5adbf9cb9416" width="100%">
       </p>
     </td>
     <td style="width: 30%;">
-      html, css, javascript를 WEB IDE 상에서 입력하면 코드를 조합한 뒤 렌더링해서 출력
+      네이버 지도 API만을 이용해서 근처 식당 검색을 할 수도 있다.
     </td>
   </tr>
   <tr>
     <td style="width: 70%;">
       <p align="center">
-        <img src="https://github.com/kitewater/back/assets/97283971/f89b4b5a-8e90-44ee-bc94-e69c02b4a562" width="100%">
+        <img src="https://github.com/kitewater/WEBIDE/assets/97283971/8a9c2293-0d8f-4c0c-8441-f5deab408cf9" width="100%">
       </p>
     </td>
     <td style="width: 30%;">
-      웹소켓을 이용한 채팅 서비스 구현
+       FIREBASE DB를 이용한 채팅서비스 구현
     </td>
   </tr>
+  
 </table>
